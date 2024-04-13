@@ -70,7 +70,7 @@
                     {
                         try
                         {
-                            $qry = "INSERT INTO users(userid,username,email,dob,pass) VALUES('$userid','$username','$email','$dob','$password')";
+                            $qry = "INSERT INTO users(userid,username,email,dob,pass) VALUES('$userid','$username','$email','$dob','$cpass')";
                             $result = $conn->query($qry);
                             if ($result)
                             {
