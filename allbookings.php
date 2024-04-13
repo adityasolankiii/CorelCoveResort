@@ -95,7 +95,7 @@ if(!$_SESSION['userid']){
             
             <!-- CARD -->
                 <form  method="post">
-                    <div class="container col-lg-7">
+                    <div class="container col-lg-8">
                         <div class="row">
                             <div class="card mb-4 border-0 shadow">
                                 <div class="row g-0 p-lg-2">

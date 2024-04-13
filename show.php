@@ -54,7 +54,7 @@ if(!$_SESSION['bookingid'] && !$_SESSION['userid']){
             ?>
 
                         <!-- CARD -->
-                <div class="container col-lg-7">
+                <div class="container col-lg-8">
  	                <div class="row">
                         <div class="card mb-4 border-0 shadow">
                             <div class="row g-0 p-lg-2">
@@ -104,7 +104,7 @@ if(!$_SESSION['bookingid'] && !$_SESSION['userid']){
                                         </div>                            
                                     </div>
 
-                                    <div class="col-md-2 mt-5 py-lg-4 py-md-5 col-lg-3 align-self-center">
+                                    <div class="col-md-2 mt-4 py-lg-5 py-md-5 col-lg-3 align-self-center">
                                         <div class="mb-1">
                                             <h6 class="mb-0 d-lg-inline">Check-in : </h6>
                                             <span class="text-dark fs-6">
