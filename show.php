@@ -1,6 +1,6 @@
 <?php
 session_start();
-@include ("php/config.php");
+include ("php/config.php");
 if(!$_SESSION['bookingid'] && !$_SESSION['userid']){
     header("Location: index.php");
 }
@@ -14,11 +14,11 @@ if(!$_SESSION['bookingid'] && !$_SESSION['userid']){
     <title>Coral Cove Resort : Details</title>
     <?php
        
-        @include ("includes/links.php");
+        include ("includes/links.php");
     ?>
 </head>
 <body>
-<?php @include ("includes/navbar.php"); ?>
+<?php include ("includes/navbar.php"); ?>
     <div class="my-5 px-4">
         <h2 class="fw-bold h-font text-center">Your Datails</h2>
         <div class="h-line bg-dark col-1"></div> 
@@ -140,6 +140,6 @@ finally{
 }
 
 ?>
-<?php @include("includes/footer.php")?>
+<?php include("includes/footer.php")?>
 </body>
 </html>

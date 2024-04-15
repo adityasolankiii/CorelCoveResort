@@ -1,7 +1,7 @@
 <?php 
    session_start();
 
-   @include("php/config.php");
+   include("php/config.php");
    if(!isset($_SESSION['userid'])){
         header("Location: index.php");
    }
@@ -12,12 +12,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <?php @include ("includes/links.php"); ?>
+    <?php include ("includes/links.php"); ?>
     <title>Coral Cove : Update Details</title>
 </head>
 <body>
 
-  <?php @include("includes/navbar.php")?>
+  <?php include("includes/navbar.php")?>
 
     <div class="my-5 px-4">
         <h3 class="fw-bold h-font text-center">Update Your Details</h3>
@@ -266,6 +266,6 @@ if (isset($_GET['bookingid']) && isset($_SESSION['userid']))
 
 
 
-<?php @include("includes/footer.php")?>
+<?php include("includes/footer.php")?>
 </body>
 </html>

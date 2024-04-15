@@ -14,7 +14,7 @@
 
         <?php 
          
-        @include("php/config.php");
+        include("php/config.php");
         if(isset($_POST['btnSubmit']))
         {
             function generateAlphanumericID() 

@@ -1,6 +1,6 @@
 <?php
 session_start();
-@include ("php/config.php");
+include ("php/config.php");
 if(!$_SESSION['userid']){
     header("Location: index.php");
 }
@@ -12,12 +12,12 @@ if(!$_SESSION['userid']){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coral Cove : Booking</title>
     <?php
-        @include ("includes/links.php");
+        include ("includes/links.php");
     ?>
 </head>
 <body>
     
-<?php @include ("includes/navbar.php"); ?>
+<?php include ("includes/navbar.php"); ?>
 
         <div class="my-5 px-4">
             <h3 class="fw-bold h-font text-center">Book the Beachfront Bliss at Coral Cove Resort</h3>
@@ -223,7 +223,7 @@ if (isset($_POST["txtBook"]))
 <!-- </div> -->
 <!-- </div> -->
 
-    <?php @include("includes/footer.php"); ?>
+    <?php include("includes/footer.php"); ?>
 </body>
 </html>
 

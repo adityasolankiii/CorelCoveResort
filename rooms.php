@@ -1,6 +1,6 @@
 <?php
 session_start();
-@include ("php/config.php");
+include ("php/config.php");
 if(!$_SESSION['userid']){
     header("Location: index.php");
 }
@@ -15,11 +15,11 @@ if(isset($_SESSION['bookingid'])){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <?php
-        @include ("includes/links.php");
+        include ("includes/links.php");
     ?>
 </head>
 <body>
-    <?php  @include ("includes/navbar.php"); ?>
+    <?php  include ("includes/navbar.php"); ?>
     
     <div class="my-5 px-4">
       <h2 class="fw-bold h-font text-center">OUR ROOMS</h2>
@@ -101,6 +101,6 @@ if ($result->num_rows > 0)
 </div>
 </div>
 
-<?php @include ("includes/footer.php"); ?>
+<?php include ("includes/footer.php"); ?>
   </div>
 </div>

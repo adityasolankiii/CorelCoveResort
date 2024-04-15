@@ -18,13 +18,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <?php @include("includes/links.php"); ?>
+    <?php include("includes/links.php"); ?>
 
     <title>Coral Cove Resort: Where Waves Meet Wonder</title>
 </head>
 <body>
 
-    <?php @include("includes/navbar.php")?>
+    <?php include("includes/navbar.php")?>
 
 	<!-- AUTO CHANGE IMAGE COROUSEL -->
 
@@ -182,6 +182,6 @@
 		loop:true,
 		});
    </script>
-    <?php @include("includes/footer.php")?>
+    <?php include("includes/footer.php")?>
 </body>
 </html>
